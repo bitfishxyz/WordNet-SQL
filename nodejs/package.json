@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "mysql": "^2.16.0"
+  },
+  "mysql": {
+    "host": "localhost",
+    "database": "wordnet",
+    "user": "root",
+    "password": ""
+  }
+}

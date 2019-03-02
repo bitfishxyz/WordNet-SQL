@@ -1,0 +1,19 @@
+00057486 04 n 02 receding 0 recession 0 005 @ 00053913 n 0000 + 03109261 a 0201 + 00570694 v 0201 + 01994442 v 0105 + 01113806 v 0105 | the act of becoming more distant  
+00057657 04 n 01 sailing 2 001 @ 00042757 n 0000 | the departure of a vessel from a port  
+00057748 04 n 01 amphibious_landing 0 003 @ 00052334 n 0000 @ 00952963 n 0000 ;c 08199025 n 0000 | a military action of coordinated land, sea, and air forces organized for an invasion; "MacArthur staged a massive amphibious landing behind enemy lines"  
+00058002 04 n 03 debarkation 0 disembarkation 0 disembarkment 0 006 @ 00052334 n 0000 + 01979241 v 0301 + 01979241 v 0201 ! 00058337 n 0202 + 01979241 v 0102 ~ 00058247 n 0000 | the act of passengers and crew getting off of a ship or aircraft  
+00058247 04 n 01 going_ashore 0 001 @ 00058002 n 0000 | debarkation from a boat or ship  
+00058337 04 n 03 boarding 0 embarkation 0 embarkment 0 003 @ 00042757 n 0000 + 01979462 v 0301 ! 00058002 n 0202 | the act of passengers and crew getting aboard a ship or aircraft  
+00058519 04 n 01 exit 0 002 @ 00042757 n 0000 + 02015598 v 0101 | the act of going out  
+00058608 04 n 01 elopement 0 002 @ 00046177 n 0000 + 02074186 v 0101 | the act of running away with a lover (usually to get married)  
+00058743 04 n 02 escape 0 flight 1 010 @ 00046177 n 0000 + 02075462 v 0201 + 02074677 v 0101 ~ 00059127 n 0000 ~ 00059989 n 0000 ~ 00060201 n 0000 ~ 00060414 n 0000 ~i 00060548 n 0000 ~ 00060747 n 0000 ~i 00060817 n 0000 | the act of escaping physically; "he made his escape from the mental hospital"; "the canary escaped from its cage"; "his flight was an indication of his guilt"  
+00059127 04 n 01 evasion 0 005 @ 00058743 n 0000 + 02074377 v 0102 ~ 00059376 n 0000 ~ 00059552 n 0000 ~ 00059895 n 0000 | the act of physically escaping from something (an opponent or a pursuer or an unpleasant situation) by some adroit maneuver  
+00059376 04 n 03 slip 3 elusion 0 eluding 0 004 @ 00059127 n 0000 + 02074377 v 0301 + 02074377 v 0201 + 01888295 v 0102 | the act of avoiding capture (especially by cunning)  
+00059552 04 n 03 maneuver 1 manoeuvre 1 evasive_action 0 004 @ 00059127 n 0000 ~ 00059728 n 0000 ~ 00170844 n 0000 ~ 00171050 n 0000 | an action aimed at evading an opponent  
+00059728 04 n 01 clinch 0 002 @ 00059552 n 0000 ;c 00445802 n 0000 | (boxing) the act of one boxer holding onto the other to avoid being hit and to rest momentarily  
+00059895 04 n 01 dodge 0 002 @ 00059127 n 0000 + 02096494 v 0101 | a quick evasive movement  
+00059989 04 n 06 break 4 breakout 0 jailbreak 0 gaolbreak 0 prisonbreak 0 prison-breaking 0 003 @ 00058743 n 0000 + 02073233 v 0202 + 02073233 v 0101 | an escape from jail; "the breakout was carefully planned"  
+00060201 04 n 02 getaway 0 lam 0 003 @ 00058743 n 0000 + 02075049 v 0205 + 02074677 v 0102 | a rapid escape (as by criminals); "the thieves made a clean getaway"; "after the expose he had to take it on the lam"  
+00060414 04 n 03 exodus 0 hegira 0 hejira 0 001 @ 00058743 n 0000 | a journey by a large group to escape from a hostile environment  
+00060548 04 n 02 Hegira 1 Hejira 1 001 @i 00058743 n 0000 | the flight of Muhammad from Mecca to Medina in 622 which marked the beginning of the Muslim era; the Muslim calendar begins in that year  
+00060747 04 n 01 skedaddle 0 001 @ 00058743 n 0000 | a hasty flight  

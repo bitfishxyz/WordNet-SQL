@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conf>
+  <db>
+    <host>localhost</host>
+    <database>wordnet</database>
+    <user>root</user>
+    <password></password>
+  </db>
+</conf>
