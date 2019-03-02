@@ -28,7 +28,6 @@ function readWordToIndexTable(sourceFile, dbConf){
     
     // some word may have ', conflict with SQL and useless
     if(word.indexOf("'") > -1) return null
-    // 这个不严谨、、、
     // return console.log(inputArray)
     // return console.log(word, class_, means_index)
 

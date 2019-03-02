@@ -13,9 +13,9 @@ connection.connect();
 
 // create table if it not exists
 let createTable = `CREATE TABLE if NOT EXISTS 
-adv_exc(comparative varchar(30) NOT NULL, 
+adv_exc(deformation varchar(30) NOT NULL, 
         normal varchar(30) NOT NULL, 
-        UNIQUE KEY (comparative, normal));`
+        UNIQUE KEY (deformation, normal));`
 
 connection.query(createTable, function(error, results, fields){
   if (error) throw error;
@@ -26,20 +26,17 @@ connection.query(createTable, function(error, results, fields){
   });
 
   rl.on('line', (input) => {
-    let comparative = input.split(' ')[0];
+    let deformation = input.split(' ')[0];
     let normal = input.split(' ')[1];
-    if (!normal || !comparative) return null;
+    if (!normal || !deformation) return null;
 
-    let sql = `insert into adv_exc(comparative, normal) values ('${comparative}', '${normal}')`
+    let sql = `insert into adv_exc(deformation, normal) values ('${deformation}', '${normal}')`
     connection.query(sql, function (error, results, fields) {
       if (error) throw error;
     });
   });
   
   rl.on('close', ()=>{
-    console.log('Files were written to MySQL successfully!')
-  
-    // if you don't call this method, repl will not quit.
     connection.end();
   })
 })
