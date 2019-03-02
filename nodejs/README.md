@@ -1,16 +1,7 @@
-Read those to mysql with nodes
+before we startm, you should checkout
+- we will use npm package `mysql` to connect MySQL from nodejs, if you never use this, you can checkout https://github.com/mysqljs/mysql, you just need to konn basic usage.
+- I write my MySQL information at package.json, you should chang e `host``user` to youself's
 
-readlinr on close
-## conf
-those program will read package.json and get db setting from 'mysql' field,
-please set those information youself beforo run program.
+- how to read lines form a text file? if you hava any problem, you can chokout `./readLine` folder.
 
 ## 
-```
-npm i
-```
-
-```
-index.*.min.js
-voc only
-```
